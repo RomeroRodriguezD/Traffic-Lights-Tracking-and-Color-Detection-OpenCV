@@ -181,4 +181,4 @@ display(Image(filename='sample_night.gif'))
 
 ### Conclusions ###
 
-Even though the light changes and movement are a hard challenge, the combination of trackers looks quite accurate, even at night, since it just tend to lose the color under sunlight (where colors becoma a mess in general) or under some rare random condition.
+Even though the light changes and movement are a hard challenge, the combination of trackers looks quite accurate, even at night, since it just tend to lose the color under sunlight (where colors become a mess in general) or under some rare random condition.
