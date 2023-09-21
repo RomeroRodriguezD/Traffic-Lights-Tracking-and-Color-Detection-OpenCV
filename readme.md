@@ -175,12 +175,8 @@ display(Image(filename='sample_final.gif'))
 display(Image(filename='sample_night.gif'))
 ```
 
-
-    ![Daylight](sample_final.gif)
-
-
-
-    ![Night](sample_night.gif)
+![sample_final](https://github.com/RomeroRodriguezD/Traffic-Lights-Tracking-and-Color-Detection-OpenCV/assets/105886661/681ece28-cbda-4b47-801c-072c537c43b4)
+![sample_night](https://github.com/RomeroRodriguezD/Traffic-Lights-Tracking-and-Color-Detection-OpenCV/assets/105886661/b66a4794-546e-4f58-bf1d-2bfe58fd02ca)
 
 
 ### Conclusions ###
