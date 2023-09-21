@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
 
 ```python
-display(Image(filename='sample_final.gif'))
+display(Image(filename='sample_day.gif'))
 display(Image(filename='sample_night.gif'))
 ```
 
