@@ -164,36 +164,23 @@ if __name__ == "__main__":
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    KeyboardInterrupt                         Traceback (most recent call last)
-
-    Cell In[3], line 62
-         59     #cv2.imshow("image", fr)
-         60         # Borra la salida anterior antes de mostrar la nueva imagen
-         61     clear_output(wait=True)
-    ---> 62     display(Image(data=cv2.imencode('.png', fr)[1].tobytes()))
-         64     key = cv2.waitKey(200) & 0xFF
-         66 cv2.destroyAllWindows()
-    
-
-    KeyboardInterrupt: 
+   
 
 
 **Output sample**
 
 
 ```python
-display(Image(filename='sample_day.gif'))
+display(Image(filename='sample_final.gif'))
 display(Image(filename='sample_night.gif'))
 ```
 
 
-    <IPython.core.display.Image object>
+    ![Daylight](sample_final.gif)
 
 
 
-    <IPython.core.display.Image object>
+    ![Night](sample_night.gif)
 
 
 ### Conclusions ###
