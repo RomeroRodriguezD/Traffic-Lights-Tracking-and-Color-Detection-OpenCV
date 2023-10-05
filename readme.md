@@ -8,7 +8,7 @@ This algorithm attempts to identify traffic lights color assuming there's some m
 
 Because under certain conditions, like light changes caused by day-night cycles, the MOSSE tracker may lose the traffic lights because the edges of the object may become blurry or even unexistant. 
 
-This problem can be solved by applying a bigger region of interest for the tracker, which can be immune to light changes do to its content. But this implies adding a drawback: Tracking the exact color of the traffic light on a way bigger region. 
+This problem can be solved by applying a bigger region of interest for the tracker, which can be immune to light changes due to its content. But this implies adding a drawback: Tracking the exact color of the traffic light on a way bigger region. 
 
 To solve the second question, we'll draw a second ROI manually, inside the already chosen one for the MOSSE tracker, starting from the top left corner (that's just a personal choice).
 
